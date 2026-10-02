@@ -1,0 +1,14 @@
+[project]
+name = "project-casey"
+version = "0.1.0"
+description = "Music library catalog and enrichment tools"
+requires-python = ">=3.12"
+dependencies = [
+    "mutagen>=1.47",
+    "psycopg[binary]>=3.2",
+    "sqlalchemy>=2.0",
+    "glslib @ git+https://github.com/devcybiko/glslib.git",
+]
+
+[tool.uv]
+package = false

@@ -1,0 +1,20 @@
+{
+  "database": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "database": "ai_workstation",
+    "user": "ai_app"
+  },
+  "matching": {
+    "candidate_limit": 25,
+    "max_candidates_to_store": 10,
+    "min_song_score": 0.7,
+    "min_artist_score": 0.7,
+    "min_match_score": 0.75
+  },
+  "processing": {
+    "commit_every": 100,
+    "progress_every": 100,
+    "rematch": false
+  }
+}
