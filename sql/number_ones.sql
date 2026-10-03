@@ -15,7 +15,7 @@ x as (
     and t.id = bt.track_id
     and b.id = bt.billboard_id
     and b.ranking <= 1
-    -- and b.year = 1970
+    and b.year = {{YEAR}}
     group by b.year, b.artist, b.song
     order by b.year, b.artist, b.song
 )

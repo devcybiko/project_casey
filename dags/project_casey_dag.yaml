@@ -1,0 +1,29 @@
+name: project_casey
+
+worker_selector:
+  native: "true"
+
+working_dir: /data/shared/git/project_casey
+
+params:
+  - name: HITS_YEAR
+    type: string
+    default: 1970
+    description: YEAR to run
+
+  - name: HITS_DIR
+    type: string
+    eval: "/data/shared/project_casey/${params.HITS_YEAR}"
+
+  - name: RUN_SELECT_HITS
+    type: boolean
+    default: true
+    description: Run select_hits
+
+steps:
+  - id: select_hits
+    run: |
+      if [ "${params.RUN_SELECT_HITS}" = "true" ]; then
+        mkdir -p ${params.HITS_DIR}/
+        ./scripts/number_one_year.sh ${params.HITS_YEAR} > ${params.HITS_DIR}/hits.json
+      fi
