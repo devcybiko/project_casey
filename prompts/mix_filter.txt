@@ -1,0 +1,2 @@
+[1:a]adelay=6000|6000,volume=0.25[music];
+[0:a][music]amix=inputs=2:duration=longest[out]

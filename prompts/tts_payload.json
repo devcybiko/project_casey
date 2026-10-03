@@ -1,0 +1,10 @@
+{
+  "model": "f5",
+  "voice": "casey",
+  "output_path": "/data/shared/project_casey/1970/CASEY_001.wav",
+  "emotion": "6s",
+  "gen_text": "",
+  "speed": 1,
+  "seed": 42,
+  "step": 32
+}

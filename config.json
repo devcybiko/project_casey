@@ -1,4 +1,5 @@
 {
+  "secrets": "~/.secrets",
   "database": {
     "host": "127.0.0.1",
     "port": 5432,
@@ -16,5 +17,12 @@
     "commit_every": 100,
     "progress_every": 100,
     "rematch": false
+  },
+  "trivia": {
+    "prompt_template": "prompts/song_trivia_j2.md",
+    "payload_template": "scripts/payload_j2.json",
+    "tts_payload": "prompts/tts_payload.json",
+    "model": "gemma412b-wikipedia",
+    "url": "http://ai.greg-smith.com:3000/api/chat/completions"
   }
 }

@@ -27,3 +27,8 @@ steps:
         mkdir -p ${params.HITS_DIR}/
         ./scripts/number_one_year.sh ${params.HITS_YEAR} > ${params.HITS_DIR}/hits.json
       fi
+
+  - id: ai_get_trivia
+    depends: select_hits
+    run: |
+      echo "Getting trivia"

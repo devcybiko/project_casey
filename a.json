@@ -1,0 +1,10 @@
+{
+  "model": "f5",
+  "voice": "casey",
+  "output_path": "/data/shared/project_casey/1970/CASEY_001.wav",
+  "emotion": "6s",
+  "gen_text": "Now, we move to the number one spot on our chart today, a song that has truly captured the hearts of listeners everywhere. You know, there was some interesting talkbehind the scenes during the recording process of this masterpiece. Paul Simon originally suggested that his partner, Art Garfunkel, should perform the piece alone in what he described as a \"white choirboy\" way; however, Garfunkel actually preferred the sound of Simon's falsetto on the initial demo. It is that unique collaboration between these two distinct voices that makes this hit so incredibly special. Here is Simon & Garfunkel with \"Bridge Over Troubled Water.\"",
+  "speed": 1,
+  "seed": 42,
+  "step": 32
+}

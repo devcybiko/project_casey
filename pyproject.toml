@@ -9,6 +9,8 @@ dependencies = [
     "sqlalchemy>=2.0",
     "glslib @ git+https://github.com/devcybiko/glslib.git",
     "jinja2>=3.1.6",
+    "dotenv>=0.9.9",
+    "unidecode>=1.4.0",
 ]
 
 [tool.uv]

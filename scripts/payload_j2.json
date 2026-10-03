@@ -1,0 +1,15 @@
+{
+  "model": "{{MODEL}}",
+  "messages": [
+    {
+      "role": "user",
+      "content": "{{PROMPT}}"
+    }
+  ],
+  "files": [
+    {
+      "type": "collection",
+      "id": "73a0d43f-7960-475f-8e78-cbd8b1428d89"
+    }
+  ]
+}
